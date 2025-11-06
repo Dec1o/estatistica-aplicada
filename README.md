@@ -30,13 +30,13 @@ O script `main.R` está organizado nas seguintes etapas principais:
 1. Clone o repositório:  
    ```bash
    git clone https://github.com/Dec1o/estatistica-aplicada.git
-## Como Executar  
+   
+2. No R (ou RStudio), abra o arquivo `main.R`.  
 
-1. No R (ou RStudio), abra o arquivo `main.R`.  
-
-2. Instale os pacotes necessários (caso ainda não instalados):  
+3. Instale os pacotes necessários (caso ainda não instalados):  
    ```r
-   install.packages(c("tidyverse", "ggplot2", ...))
-3. Execute o script linha-a-linha ou em bloco para observar os resultados em cada etapa.  
+   install.packages(c("tidyverse", "ggplot2", "dplyr", "readr", "ggpubr", "car", "psych", "corrplot", "reshape2"))
 
-4. Analise os gráficos e sumários gerados — eles contêm os principais insights da base de dados utilizada.
+4. Execute o script linha-a-linha ou em bloco para observar os resultados em cada etapa.  
+
+5. Analise os gráficos e sumários gerados — eles contêm os principais insights da base de dados utilizada.
